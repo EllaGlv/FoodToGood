@@ -3,24 +3,31 @@ body {
 }
 
 h1 {
-  font-size: 3.3rem;
-  line-height: 1.2;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
   font-weight: 700;
+  text-align: left;
 }
 
 h3 {
   font-size: 1.5rem;
   font-weight: 700;
+  text-align: left;
 }
 
 p {
   color: #8f8f8f;
   font-size: 0.9rem;
   font-weight: 400;
+  text-align: left;
 }
 
 .container {
-  padding: 5% 10%;
+  width: 100%;
+  padding: 10px;
+  /* padding: 5% 10%; */
+  text-align: center;
 }
 
 /* Navigation Bar */
@@ -55,6 +62,11 @@ p {
   background-size: cover;
 }
 
+.title-text {
+  width: 100%;
+  margin: 0 auto;
+}
+
 .title-background img {
   width: 100%;
   height: auto;
@@ -62,8 +74,9 @@ p {
 }
 
 .container-download-button {
-  width: 200px;
-  margin: 10% 0%;
+  width: 50%;
+  padding-top: 30px;
+  text-align: left;
 }
 
 #title .container {
@@ -74,6 +87,14 @@ p {
 #features {
   background-color: #fff;
   position: relative;
+}
+
+#features h3 {
+  text-align: center;
+}
+
+#features p {
+  text-align: center;
 }
 
 .icon {
@@ -91,9 +112,13 @@ p {
   position: relative;
 }
 
+#firstPage .container {
+  padding: 10px 10% 0px;
+}
+
 .description-image-newday {
   height: 100%;
-  margin: 0 auto 0 15%;
+  margin: 0 auto 0 5%;
 }
 
 .description-first-background {
@@ -111,6 +136,10 @@ p {
 /* Description Second Page */
 #secondPage {
   position: relative;
+}
+
+#secondPage .container {
+  padding: 10px 10% 0px;
 }
 
 .description-second-text {
@@ -144,13 +173,13 @@ p {
 }
 
 .container-image-dark {
-  height: 400px;
+  height: 100%;
   text-align: center;
   bottom: 0;
 }
 
 .image-dark {
-  height: 100%;
+  width: 100%;
 }
 
 #darkMode .container {
@@ -173,7 +202,7 @@ p {
 }
 
 .footer-download-button {
-  height: 40px;
+  height: 0;
 }
 
 .footer-text {
@@ -189,32 +218,46 @@ p {
 }
 
 /* Media query */
-@media (max-width: 992px) {
-  #title {
+@media (max-width: 720px) {
+
+  h1, h3 {
     text-align: center;
   }
 
-  .description-image-monitoring {
-    top: 20px;
+  p {
+    padding-left: 10px;
   }
 
-  .body {
-    text-align: center;
+  .container {
+    padding: 10px;
   }
 
-  .dark-text {
-    text-align: center;
+  .download-button {
+    width: 100%;
   }
 
   .container-download-button {
-    margin: 10% auto 10% auto;
+    margin: auto;
+    width: 60%;
+    padding-bottom: 40px;
   }
 
-  .description-second-text {
-    padding: 10%;
+  .description-first-background {
+    height: 300px;
+  }
+
+  .description-image-newday {
+    text-align: right;
+    padding-left: 10%;
+    margin: auto;
   }
 
   .container-image-monitoring {
-    padding-top: 0px;
+    height: 500px;
+    padding-left: 25px;
+  }
+
+  .description-image-monitoring {
+    height: 90%;
   }
 }
