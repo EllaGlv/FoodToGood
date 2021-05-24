@@ -222,7 +222,24 @@ p {
 }
 
 .container-privacy {
-  margin: 5%;
+  padding: 3rem;
+  flex: 1 1 auto;
+}
+
+.container-privacy h1 {
+  font-size:4em;
+  margin-top: 1em ;
+  margin-bottom: 1em ;
+}
+
+.container-privacy p {
+  font-size:3em;
+  margin-top: 1em ;
+  margin-bottom: 1em ;
+}
+
+.container-privacy h4 {
+  font-size:3.5em;
 }
 
 /* Media query */
@@ -267,4 +284,5 @@ p {
   .description-image-monitoring {
     height: 90%;
   }
+
 }
