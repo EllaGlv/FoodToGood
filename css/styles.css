@@ -217,6 +217,14 @@ p {
   line-height: 1.5;
 }
 
+.privacy-text-titles {
+  color: #93C22F;
+}
+
+.container-privacy {
+  margin: 5%;
+}
+
 /* Media query */
 @media (max-width: 720px) {
 
