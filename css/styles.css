@@ -227,10 +227,6 @@ p {
 
 /* Media query */
 @media (max-width: 720px) {
-<<<<<<< HEAD
-
-=======
->>>>>>> 43781dc21b1345fefa88fc25bf06321865626cd6
   h1, h3 {
     text-align: center;
   }
@@ -251,21 +247,12 @@ p {
     margin: auto;
     width: 60%;
     padding-bottom: 40px;
-<<<<<<< HEAD
   }
 
   .description-first-background {
     height: 300px;
   }
 
-=======
-  }
-
-  .description-first-background {
-    height: 300px;
-  }
-
->>>>>>> 43781dc21b1345fefa88fc25bf06321865626cd6
   .description-image-newday {
     text-align: right;
     padding-left: 10%;
