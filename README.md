@@ -15,3 +15,4 @@ $ git clone https://github.com/EllaGlv/FoodToGood.git
 ```
 $ open index.html
 ```
+or just use this link: https://ellaglv.github.io/FoodToGood-Website/ 
